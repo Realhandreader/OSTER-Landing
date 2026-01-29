@@ -79,7 +79,7 @@ function Footer () {
                     <ul>
                         <li>Address</li>
                         <li>Tel</li>
-                        <li>Mail</li>
+                        <li>Mail: oleksandr.baranenko@oster-tech.com</li>
                     </ul>
                 </div>
 

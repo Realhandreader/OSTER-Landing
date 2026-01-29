@@ -51,10 +51,16 @@ function Hero () {
                                 </div>*/}
                             </div>
                             <div className="mt-5">
-                                <ContactBtn
-                                    message={"Ready to scale? Let’s talk"}
-                                    fontClass={"text-sm 2xl:text-2xl px-6 py-5"}
-                                />
+                                <a
+                                    href="https://t.me/oster_tech"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <ContactBtn
+                                        message={"Ready to scale? Let’s talk"}
+                                        fontClass={"text-sm 2xl:text-2xl px-6 py-5"}
+                                    />
+                                </a>
                             </div>
                         </div>
                     </div>
