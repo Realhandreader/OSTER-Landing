@@ -62,7 +62,7 @@ const isMobile = window.innerWidth < 1024;
                     `}>
                     <NavLink
                         to="/">
-                        <img src={theme === "dark" ? logodark : logolight} alt="Logo" className="h-10 xl:h-16 2xl:h-20"/>
+                        <img src={theme === "dark" ? logodark : logolight} alt="OSTER-Tech" className="h-10 xl:h-16 2xl:h-20"/>
                     </NavLink>
                     <nav className="hidden lg:flex gap-5 cursor-pointer ">
                         <Navbar />

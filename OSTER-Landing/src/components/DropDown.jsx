@@ -26,7 +26,7 @@ function DropDown ( { link }) {
                             <li key={item.id}
                                 className="flex flex-col gap-2  ">
                                 <NavLink
-                                    to={`/${link.id}/${item.id}`}
+                                    to={`/${link.id}`}
                                     onClick={() => setOpenDropdown(null)}
                                     className={({ isActive }) =>
                                     `${isActive ? "text-rose-500 dark:text-cyan-300" : "hover:text-slate-500 dark:hover:text-cyan-200"}

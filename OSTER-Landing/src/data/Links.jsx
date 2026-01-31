@@ -16,7 +16,7 @@ export const links = [
     dropdown: [
       { name: "Web Development", id: "webdev", type: "section" },
       { name: "Design", id: "design", type: "section" },
-      { name: "Marketing", id: "marketing", type: "section" },
+      { name: "SEO", id: "seo", type: "section" },
     ],
   },
   {
