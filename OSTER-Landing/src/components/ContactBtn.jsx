@@ -5,7 +5,7 @@ function ContactBtn({ message, fontClass }) {
         text-white bg-black cursor-pointer
         dark:border-1 dark:border-fuchsia-900
         hover:bg-fuchsia-600 dark:hover:bg-black
-        dark:hover:drop-shadow-[0_0_15px_#fc1bfb]
+        dark:hover:drop-shadow-[0_0_15px_rgba(252,27,251,0.5)]
         ${fontClass}`}
         >
         {message}

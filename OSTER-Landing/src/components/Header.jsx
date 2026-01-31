@@ -87,8 +87,8 @@ const isMobile = window.innerWidth < 1024;
                         <div className=" flex items-center justify-center">
                             <a href="mailto:oleksandr.baranenko@oster-tech.com">
                                 <ContactBtn 
-                                    message={"Contact us"}
-                                    fontClass={"text-sm 2xl:text-base px-3 py-2 2xl:ml-2"}
+                                    message={"CONTACT US"}
+                                    fontClass={"text-sm 2xl:text-base px-5 py-2 2xl:ml-2"}
                                 />
                             </a>
                         </div>

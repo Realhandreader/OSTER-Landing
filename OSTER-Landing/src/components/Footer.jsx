@@ -136,7 +136,7 @@ function Footer ({ theme }) {
                                 >
                                     <Icon
                                     className="w-10 h-10
-                                    hover:text-slate-500
+                                    hover:text-fuchsia-600
                                     dark:hover:text-white
                                     dark:hover:drop-shadow-[0_0_0px_#22d3ee,0_0_0px_#22d3ee,0_0_10px_#22d3ee]"
                                     />

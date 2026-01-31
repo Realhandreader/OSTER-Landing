@@ -1,8 +1,7 @@
 import comingsoon from "../assets/img/logo/coming-soon.png";
 
-function About () {
-
-    return (
+function Audit() {
+return (
         <>
         <div className="section-container first-section-spacing relative">
             <h1 className="title-settings">Coming soon</h1>
@@ -19,4 +18,4 @@ function About () {
     )
 }
 
-export default About;
+export default Audit;

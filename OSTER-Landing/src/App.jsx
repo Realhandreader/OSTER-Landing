@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
-import Pricing from './pages/Pricing';
+import Audit from './pages/Audit';
 import Blog from './pages/Blog';
 import Tools from './pages/Tools';
 import Projects from './pages/Projects';
@@ -58,7 +58,7 @@ useEffect(() => {
             <Route path='/' element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/pricing" element={<Pricing />} />
+            <Route path="/audit" element={<Audit />} />
             <Route path="/projects" element={<Projects />} />
             <Route path='/blog' element={<Blog />} />
             <Route path="/tools" element={<Tools />} />

@@ -7,8 +7,13 @@ import sIcon from "../../assets/img/s.png";
 import tIcon from "../../assets/img/t.png";
 import eIcon from "../../assets/img/e.png";
 import rIcon from "../../assets/img/r.png";
+import Socials from "../../data/Socials";
 
 function Hero () {
+
+    const telegram = Socials.find(item => item.id === "telegram");
+    const phone = Socials.find(item => item.id === "phone");
+
     return (
         <>
             <div className="section-container first-section-spacing flex flex-col justify-between">
@@ -50,15 +55,33 @@ function Hero () {
                                     // to unlock the tomorrow’s opportunities
                                 </div>*/}
                             </div>
-                            <div className="mt-5">
+                            <h3 className="uppercase text-2xl font-semibold 
+                                bg-gradient-to-r from-pink-500 via-purple-500 to-purple-500 
+                                bg-clip-text text-transparent">
+                                    Ready to scale? 
+                                </h3>
+                            <div className="flex flex-row gap-5 items-center ">
+                                
                                 <a
-                                    href="https://t.me/oster_tech"
+                                    href={telegram.href}
                                     target="_blank"
                                     rel="noopener noreferrer"
+                                    aria-label={telegram.label}
                                 >
                                     <ContactBtn
-                                        message={"Ready to scale? Let’s talk"}
-                                        fontClass={"text-sm 2xl:text-2xl px-6 py-5"}
+                                        message={"LET’S TALK"}
+                                        fontClass={"text-sm 2xl:text-xl px-16 py-5"}
+                                    />
+                                </a>
+                                <a
+                                    href={phone.href}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={telegram.label}
+                                >
+                                    <ContactBtn
+                                        message={"CALL US"}
+                                        fontClass={"text-sm 2xl:text-xl px-16 py-5"}
                                     />
                                 </a>
                             </div>
